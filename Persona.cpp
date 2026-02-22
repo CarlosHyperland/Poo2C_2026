@@ -25,5 +25,4 @@ class Persona{
 	void leer();
 	void actulizar();
 	void borrar();
-
 };
