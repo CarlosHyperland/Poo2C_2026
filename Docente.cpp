@@ -6,4 +6,5 @@ class Docente: Docente{
 	//atributos
 	Private : string 
 
+
 }
