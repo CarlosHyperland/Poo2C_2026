@@ -12,30 +12,30 @@ class Docente: Persona{
 
 	Docente(){
 	}
-	Docente(string cu,string nom,string ape,string dir,string fech,int tel, bool gen,string cod,string n,string pr,float sal): Persona(cu,nom,ape,dir,fech,tel,gen){
+	Docente(string cu,string nom,string ape,string dir,string fech,int tel, bool gen,string cod,string n,string pro,float sal): Persona(cu,nom,ape,dir,fech,tel,gen){
 	  codigo = cod;
 	  nit = n;
-	  profesion = pr;
+	  profesion = pro;
 	  salario = sal;
 	}
 	//metodos
 	//set (modificar)
 	void setCui(string cu){cui = cu;}
 	void setNombres(string nom){nombres = nom;}
-	void setApellido(string ape){apellido = ape;}
+	void setApellidos(string ape){apellidos = ape;}
 	void setDireccion(string dir){direccion = dir;}
 	void setFecha_nacimiento(string fech){fecha_nacimiento = fech;}
 	void setTelefono(int tel){telefono = tel;}
 	void setGenero(bool gen){genero = gen;}
 	void setCodigo(string cod){codigo = cod;}
 	void setNit(string n){nit = n;}
-	void setProfesion(string = pr){profesion = pr;}
+	void setProfesion(string = pro){profesion = pro;}
 	void setSalario(float = sal){salario = sal;}
-	//get (mostrar)	 
-
+	
+	//get (mostrar)
 	string setCui(){return cui;}
 	string setNombres(){return nombres;}
-	string setApellido(){return apellido;}
+	string setApellidos(){return apellidos;}
 	string setDireccion(){return direccion;}
 	string setFecha_nacimiento(){return fecha_nacimiento;}
 	int setTelefono(){return  telefono;}
@@ -47,6 +47,6 @@ class Docente: Persona{
 	//metodos
 	void mostrar(){
 	  cout<<"_________"<<endl;
-	  cout<<cui<<","<<nombre>>","<<apellido<<","<<direccion<<","<<fecha_nacimiento<<","<<telefono<<","<<genero<<","<<codigo<<","<<nit<<","<<profesor<<","<<salario;
+	  cout<<cui<<","<<nombres<<","<<apellidos<<","<<direccion<<","<<fecha_nacimiento<<","<<telefono<<","<<genero<<","<<codigo<<","<<nit<<","<<profesion<<","<<salario<<endl;
 	}
 };
