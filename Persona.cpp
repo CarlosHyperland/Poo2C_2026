@@ -16,7 +16,7 @@ class Persona{
 			apellidos, ape;
 			direccion = dir;
 			telefono = tel;
-			fecha_nacimiento; fech;
+			fecha_nacimiento = fech;
 			genero = gen;
 
 		  }
