@@ -29,21 +29,21 @@ class Docente: Persona{
 	void setGenero(bool gen){genero = gen;}
 	void setCodigo(string cod){codigo = cod;}
 	void setNit(string n){nit = n;}
-	void setProfesion(string = pro){profesion = pro;}
-	void setSalario(float = sal){salario = sal;}
+	void setProfesion(string pro){profesion = pro;}
+	void setSalario(float sal){salario = sal;}
 	
 	//get (mostrar)
-	string setCui(){return cui;}
-	string setNombres(){return nombres;}
-	string setApellidos(){return apellidos;}
-	string setDireccion(){return direccion;}
-	string setFecha_nacimiento(){return fecha_nacimiento;}
-	int setTelefono(){return  telefono;}
+	string getCui(){return cui;}
+	string getNombres(){return nombres;}
+	string getApellidos(){return apellidos;}
+	string getDireccion(){return direccion;}
+	string getFecha_nacimiento(){return fecha_nacimiento;}
+	int getTelefono(){return  telefono;}
 	bool setGenero(){return genero;}
-	string setCodigo(){return codigo;}
-	string setNit(){return nit;}
-	string setProfesion(){return profesion;}
-	float setSalario(){return salario;}
+	string getCodigo(){return codigo;}
+	string getNit(){return nit;}
+	string getProfesion(){return profesion;}
+	float getSalario(){return salario;}
 	//metodos
 	void mostrar(){
 	  cout<<"_________"<<endl;
