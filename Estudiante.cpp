@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Estudiante: Public Persona{
+class Estudiante: public Persona{
 	//atributos
 	private : string carnet;
 
